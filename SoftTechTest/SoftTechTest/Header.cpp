@@ -16,6 +16,15 @@ int max(int a[], int n)
     return m;
 }
 
+int min(int a[], int n)
+{
+    int m = a[0];
+    for (int i = 1; i < n; i++)
+        if (m > a[i]) m = a[i];
+    return m;
+}
+}
+
 float average(int a[], int n)
 {
     return suma(a,n)/(float)n;

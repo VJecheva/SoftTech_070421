@@ -9,7 +9,11 @@ int main()
 	cout << "Suma=" << suma(a, n) << endl;
 	cout << "Max=" << max(a, n) << endl;
 	cout << "Average=" << average(a, n) << endl;
+
+
+=======
 	cout << "Test" << endl;
+
 
 }
 
